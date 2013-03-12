@@ -6,5 +6,7 @@ video:
 ORIG = GRADVICE.srt
 DEST = final/$(ORIG)
 
-copy_subtitles:
-	unix2dos < $(ORIG) > $(DEST)
+copy_subtitles: $(DEST)
+
+$(DEST): $(ORIG)
+	unix2dos < $< > $@
