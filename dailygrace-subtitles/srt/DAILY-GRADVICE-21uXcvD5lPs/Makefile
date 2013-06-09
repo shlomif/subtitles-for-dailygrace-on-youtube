@@ -10,3 +10,6 @@ copy_subtitles: $(DEST)
 
 $(DEST): $(ORIG)
 	unix2dos < $< > $@
+
+test: video $(DEST)
+	vlc --sub-file $(DEST) *.webm
