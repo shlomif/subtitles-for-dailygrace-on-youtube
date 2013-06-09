@@ -1,4 +1,4 @@
-1
+﻿1
 00:00:00,000 --> 00:00:01,300
 What's up, fuckers?
 
@@ -61,3 +61,8 @@ Great question.
 16
 00:00:57,700 --> 00:00:59,800
 From the front.
+
+17
+00:01:00,992 --> 00:01:07,526
+How do I tell a guy I made out with several times, that I would be a terrible girlfriend and that I don't think we should go out... help!
+
