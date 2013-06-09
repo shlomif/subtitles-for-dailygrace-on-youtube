@@ -16,4 +16,4 @@ $(DEST): $(ORIG)
 	unix2dos < $< > $@
 
 test: video all
-	vlc --sub-file $(DEST) *.webm
+	vlc --sub-file $(DEST) $(VIDEO)
