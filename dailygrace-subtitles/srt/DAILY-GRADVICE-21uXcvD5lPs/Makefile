@@ -32,3 +32,10 @@ edit: video
 
 test: video all
 	vlc --sub-file $(DEST) $(VIDEO)
+
+upload: video all
+	sky up "$(VIDEO)"
+	sky up "$(DEST)"
+
+remote_test:
+	vlc --sub-file http://www.shlomifish.org/Files/files/video/GRADVICE.srt http://www.shlomifish.org/Files/files/video/DAILY%20GRADVICE-21uXcvD5lPs.webm
