@@ -1,0 +1,9 @@
+=encoding utf8
+
+=head1 INSTALL
+
+Type C<make> to prepare the subtitles, and C<make test> to test them
+using VLC. You'll need a recent version of VLC that can play .webm files.
+
+=cut
+
