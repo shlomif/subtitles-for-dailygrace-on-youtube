@@ -1,5 +1,10 @@
 =encoding utf8
 
+=head1 ABOUT
+
+These are subtitles for this video:
+L<http://www.youtube.com/watch?v=21uXcvD5lPs> .
+
 =head1 INSTALL
 
 Type C<make> to prepare the subtitles, and C<make test> to test them
